@@ -14,6 +14,95 @@
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
     </head>
+    <style>
+        /*============================ Bangla ============================*/
+
+.Banglastart h1{
+    text-align: center;
+    padding-top: 6%;
+    margin-bottom: 100px;
+    font-size: 50px;
+    color: rgb(0, 135, 255);
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    
+  }
+  .Banglastart h1::after{
+    content: '';
+    background-color: rgb(0, 135, 255);
+    width: 200px;
+    height: 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bangla{
+    display: flex;
+    text-align: center;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background: rgb(0, 135, 255);
+    border-radius: 20px;
+  }
+  .bangla .bangla-sector{
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 350px;
+    padding: 20px;
+    line-height: 25px;
+    position: relative;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+  }
+  .bangla .bangla-sector h3{
+      font-size: 30px;
+      font-family: 'Nunito', sans-serif;
+  }
+  .bangla .bangla-sector ul{
+      text-align: left;
+      padding-left: 10px;
+ }
+ .bangla .bangla-sector ul li{
+    border: 2px solid #fff;
+    color: rgb(0, 135, 255);
+    background-color: #fff;
+    transition: 0.6s;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
+}
+ .bangla .bangla-sector ul li a {
+     text-decoration: none;
+     padding-left: 10px;
+     font-family: 'Maiandra GD';
+     color: #000;
+     transition: 0.6s;
+ }
+ .bangla .bangla-sector ul li:hover{
+    color: #fff;
+    background: none;
+}
+ @media (max-width: 375px) {
+    .bangla .bangla-sector h3{
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .bangla .bangla-sector a{
+        font-size: 13px;
+        font-family: 'Nunito', sans-serif;
+    }
+ }
+    </style>
     <body class="index">
         <div id="home">
             <header>
